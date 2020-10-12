@@ -1,0 +1,70 @@
+import java.util.Scanner;
+import java.util.*;
+import java.util.Objects;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+class Customor{
+    static String menu_one[];
+    static String menu_three[];
+    static String menu_five[];
+    static String menu_seven[];
+    static String menu_ten[];
+    static String menu_otwo[];
+    static String menu_othree[];
+    static String menu_ofour[];
+    static String menu_osix[];
+    static String menu_oseven[];
+
+    static String price_one[];
+    static String price_three[];
+    static String price_five[];
+    static String price_seven[];
+    static String price_ten[];
+    static String price_otwo[];
+    static String price_othree[];
+    static String price_ofour[];
+    static String price_osix[];
+    static String price_oseven[];
+
+    static String def[];
+    public static String[] customor_data(List<String> list,List<Integer> list_price,int table_num){
+	switch(table_num){    
+	    case 1:		
+		menu_one = list;
+		System.out.println(Arrays.toString(menu_one));
+	        return menu_one; 
+	    case 3:
+		menu_three = list.toArray(new String [list.size()]);
+		return menu_three;
+	    case 5:
+		menu_five = list.toArray(new String [list.size()]);
+		return menu_five;
+	    case 7:
+		menu_seven = list.toArray(new String [list.size()]);
+		return menu_seven;
+	    case 10:
+		menu_ten = list.toArray(new String [list.size()]);
+		return menu_ten;
+	    case 12:
+		menu_otwo = list.toArray(new String [list.size()]);
+		return menu_otwo;
+	    case 13:
+	        menu_othree = list.toArray(new String [list.size()]);
+		return menu_othree;
+	    case 14:
+		menu_ofour = list.toArray(new String [list.size()]);
+		return menu_ofour;
+	    case 16:
+		menu_osix = list.toArray(new String [list.size()]);
+		return menu_osix;
+	    case 17:
+		menu_oseven = list.toArray(new String [list.size()]);
+		return menu_oseven;
+	    
+	}
+        
+	return def;
+    }
+}

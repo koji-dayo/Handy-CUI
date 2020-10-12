@@ -1,0 +1,9 @@
+package handy;
+import command.Command;
+class Handy{
+    
+    public static void main(String[] args){
+	Command command = new Command();
+	command.table_command();
+    }
+}
