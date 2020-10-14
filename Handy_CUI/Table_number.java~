@@ -1,5 +1,0 @@
-class Table_number{
-    public number(int num){
-	return num;
-    }
-}
